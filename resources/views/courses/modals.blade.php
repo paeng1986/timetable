@@ -32,6 +32,49 @@
                             </div>
 
                             <div class="form-group">
+                                <label for="specialization">Specialization</label>
+                                <select name="specialization" id="specialization" class="form-control">
+                                    <option value=""></option>
+                                    <optgroup label="High School Level">
+                                        <option value="Business and Management">Business and Management</option>
+                                        <option value="Electrical/Electronics">Electrical/Electronics</option>
+                                        <option value="English">English</option>
+                                        <option value="Filipino">Filipino</option>
+                                        <option value="Hospitality/Culinary Mgt">Hospitality/Culinary Mgt</option>
+                                        <option value="Information Technology">Information Technology</option>
+                                        <option value="Mathematics">Mathematics</option>
+                                        <option value="Physical Education">Physical Education</option>
+                                        <option value="Sciences">Sciences</option>
+                                        <option value="Social and Behavioral Sciences">Social and Behavioral Sciences</option>
+                                        <option value="Tourism Management">Tourism Management</option>
+                                    </optgroup>
+                                    <optgroup label="Tertiary Level">
+                                        <option value="Accounting">Accounting</option>
+                                        <option value="Biological Sciences">Biological Sciences</option>
+                                        <option value="Business and Management">Business and Management</option>
+                                        <option value="Chemistry">Chemistry</option>
+                                        <option value="Communications">Communications</option>
+                                        <option value="Computer Graphics">Computer Graphics</option>
+                                        <option value="Criminology">Criminology</option>
+                                        <option value="Engineering">Engineering</option>
+                                        <option value="English/Foreign Language">English/Foreign Language</option>
+                                        <option value="Filipino">Filipino</option>
+                                        <option value="Hospitality/Culinary Mgt">Hospitality/Culinary Mgt</option>
+                                        <option value="Information Technology">Information Technology</option>
+                                        <option value="Law">Law</option>
+                                        <option value="Mathematics">Mathematics</option>
+                                        <option value="Multimedia Arts">Multimedia Arts</option>
+                                        <option value="Philosophy">Philosophy</option>
+                                        <option value="Physical Education">Physical Education</option>
+                                        <option value="Physical Sciences">Physical Sciences</option>
+                                        <option value="Psychology">Psychology</option>
+                                        <option value="Social and Behavioral Science">Social and Behavioral Science</option>
+                                        <option value="Tourism Management">Tourism Management</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
                                 <label>Professors</label>
 
                                 <div class="select2-wrapper">

@@ -31,8 +31,6 @@
                                 <input type="text" name="email" class="form-control">
                             </div>
 
-                            
-
                             <div class="form-group">
                                 <label for="specialization">Specialization</label>
                                 <select name="specialization" id="specialization" class="form-control">

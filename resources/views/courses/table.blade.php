@@ -4,8 +4,9 @@
         <table class="table table-bordered">
             <thead>
                 <tr class="table-head">
-                    <th style="width: 30%">Course Code</th>
+                    <th>Course Code</th>
                     <th style="width: 30%">Name</th>
+                    <th>Specialization</th>
                     <th style="width: 30%">Taught By</th>
                     <th style="width: 10%">Actions</th>
                 </tr>
@@ -16,6 +17,7 @@
                 <tr>
                     <td>{{ $course->course_code }}</td>
                     <td>{{ $course->name }}</td>
+                    <td>{{ $course->specialization }}</td>
                     <td>
                         <ul>
                         @foreach ($course->professors as $professor)

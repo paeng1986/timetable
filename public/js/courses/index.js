@@ -10,6 +10,7 @@ App.extend(Resource, Course);
 Course.prototype.prepareForUpdate = function (resource) {
     $('input[name=name]').val(resource.name);
     $('input[name=course_code]').val(resource.course_code);
+    $('#specialization').val(resource.specialization).change();
     $('#professors-select').val(resource.professor_ids).change();
 };
 
