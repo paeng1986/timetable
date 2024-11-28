@@ -5,7 +5,9 @@
             <thead>
                 <tr class="table-head">
                     <th style="width: 50%">Name</th>
-                    <th style="width: 40%">Capacity</th>
+                    <th>Specialization</th>
+                    <th>Type</th>
+                    <th>Capacity</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -14,6 +16,8 @@
                 @foreach($rooms as $room)
                 <tr>
                     <td>{{ $room->name }}</td>
+                    <td>{{ $room->specialization }}</td>
+                    <td>{{ $room->type }}</td>
                     <td>{{ $room->capacity }}</td>
                     <td>
                     <button class="btn btn-primary btn-sm resource-update-btn" data-id="{{ $room->id }}"><i class="fa fa-pencil"></i></button>

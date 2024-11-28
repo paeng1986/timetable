@@ -5,7 +5,8 @@
             <thead>
                 <tr class="table-head">
                     <th style="width: 20%">Name</th>
-                    <th style="width: 20%">Email</th>
+                    <th style="width: 10%">Email</th>
+                    <th> Specialization </th>
                     <th style="width: 30%">Courses Taught</th>
                     <th style="width: 20%">Unavailable Periods</th>
                     <th>Actions</th>
@@ -17,6 +18,7 @@
                 <tr>
                     <td>{{ $professor->name }}</td>
                     <td>{{ $professor->email }}</td>
+                    <td>{{ $professor->specialization }}</td>
                     <td>
                         @if (count($professor->courses))
                             <ul>

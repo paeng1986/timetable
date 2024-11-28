@@ -10,6 +10,8 @@ App.extend(Resource, Room);
 Room.prototype.prepareForUpdate =  function(resource) {
     $('input[name=name]').val(resource.name);
     $('input[name=capacity]').val(resource.capacity);
+    $('#specialization').val(resource.specialization).change();
+    $('#room_type').val(resource.type);
 };
 
 window.addEventListener('load', function(){

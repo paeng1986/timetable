@@ -25,6 +25,9 @@ class AddEmailFieldToProfessorsTable extends Migration
      */
     public function down()
     {
-        Schema::dropColumn('email');
+        Schema::table('professors', function (Blueprint $table) {
+            $table->dropColumn('email');
+        });
+        
     }
 }
