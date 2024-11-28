@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/** Login form styles **/
+/*.login-page {
+    background: url(../images/background.jpg);
+    height: 600px;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    padding: 0;
+    margin: 0;   
+}*/
+
+.background{
+    position: absolute;
+    opacity: 0.5;
+    background-image: url('images/background.jpg');
+    height: 95vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    /*animation: slider 10s linear infinite;*/
+    mask-image: linear-gradient(black, transparent);
+    -webkit-mask-image: linear-gradient(180deg, black 60%, transparent 100%);
+}
+
+/*
+.div{
+    /*position: absolute;*/
+    /*height: 350px;
+    background-size: 100% 100%;
+    box-shadow: 20px 20px 10px gray;
+    animation: slider 10s linear infinite;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url('images/background.jpg');
+    }
+    30%{
+        background-image: url('images/stiers1.jpg');
+    }
+    60%{
+        background-image: url('images/stiers3.jpg');
+    }
+    100%{
+        background-image: url('images/stiers2.jpg');
+    }
+    /*
+    100%{
+        background-image: url('images/stiglobal.png');
+    }
+    100%{
+        background-image: url('images/flagpole.png');
+    }*/
+/*}*/
+
+
+
+#login-form-container {
+    margin-top: 330px;
+}
+
+#activation-form-container {
+    margin-top: 100px;
+}
+
+.login-form-header {
+    /*background: #B0262E;*/
+    background: #01579B;
+    border: 1px solid #01579B;
+    color: #FFFFFF;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -3px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+label{
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+}
+
+.login-form-header h3 {
+    font-weight: bold;
+    text-align: center;
+
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+
+.login-form-body {
+    border: 1px solid #01579B;
+    background: #FFFFFF;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 5px 8px 3px rgba(0, 0, 0, 0.4);
+}
+
+/** Style for buttons */
+.btn-custom {
+    background: #01579B;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    transition: all 0.5s ease 0s;
+    
+    
+}
+
+.btn-custom:hover{
+    background: #01319b;
+    color: #FFFFFF;
+}
+
+
+input[type=text], input[type=password] {
+    border: 1px solid rgba(0, 0, 0, 0.2) ;
+    border-radius: 6px !important;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+.btn{
+    border: none;
+    border-radius: 6px !important;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+
+.site-logo {
+    color: #FFFFFF !important;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.sidebar {
+   background: #01579B;
+   height: 180vh;
+}
+
+/** Menu **/
+.site-logo-container {
+    /*background-color: #B22222;*/
+    background-color: #01319b;
+    height: 70px;
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu {
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    color: #FFFAF0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s ease 0.0s;
+}
+
+.menu li .fa {
+    float: left;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.menu li:hover, .menu li.active {
+    color: #FFFFFF;
+    background-color: #01319b;
+    font-weight: bold;
+}
+
+.menu li.active{
+    border-left: 2px solid #FFFFFF;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #FFFAF0;
+
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.page-title {
+    background-color: #01579B;
+    color: #FFFFFF;
+    height: 70px;
+}
+
+.menubar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/** Pages */
+.no-data {
+    color: rgb(192, 192, 192);
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+.modal.custom-modal .modal-content {
+    border-radius: 0px;
+}
+
+/** Table */
+.table-head {
+    text-transform:uppercase;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background: linear-gradient(rgb(229, 76, 16), rgb(172, 78, 41));
+    color: #FFFFFF;
+
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(229, 76, 16, .1);
+}
+
+/** Redefinition for buttons */
+.btn-primary{
+    background: #5F9EA0;
+    transition: all 0.5s ease 0s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #007a7a;
+}
+
+.btn-danger {
+    background: #FF6347;
+}
+
+.btn-danger:hover {
+    background: #DC143C;
+}
+
+/** Pagination buttons **/
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #DC143C;
+    border: 1px solid #DC143C;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    background: rgba(229, 76, 16, .1);
+    color: #008B8B;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: rgba(229, 76, 16, .1);
+}
+
+/*
+.paginationn>li>a:hover,
+.pagination>li>span:hover {
+    
+}
+*/
+
+.select2-wrapper .select2-container {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    min-height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-top: 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+
+.side-icon {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/** Dashboard */
+.card-1 {
+    background: #4682B4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    
+}
+
+.card-2 {
+    background: #FFA500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.card-3 {
+    background: #3CB371;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.card-4 {
+    background: #FF6347;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.card-title {
+    font-size: 1em;
+    color: #FFFFFF;
+
+}
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 2em;
+    color: azure;
+}
+
+.card-body {
+    font-size: 3em;
+    color: #fff;
+}
+
+.timetable-btn {
+    font-size: 2em;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-group-btn .btn {
+    font-size: 16px;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+    .background{
+        position: absolute;
+        opacity: 0.3;
+        height: 45vh; 
+        width: 100vw; 
+        mask-image: linear-gradient(black, transparent);
+        -webkit-mask-image: linear-gradient(180deg, black 60%, transparent 100%);
+    }
+    .second-image{
+        position: absolute;
+        opacity: 0.3;
+        top: 570px;
+        width: 100vw;
+        height: 350px;
+        background-image: url('history.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        mask-image: linear-gradient(black, transparent);
+        -webkit-mask-image: linear-gradient(360deg, black 60%, transparent 100%);
+        
+    }
+    
+}
